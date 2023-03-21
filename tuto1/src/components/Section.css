@@ -1,0 +1,74 @@
+section{
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  position: sticky;
+}
+
+.slises{
+
+}
+.slides.active{
+ width: 100%;
+ height: 100%;
+ padding:2rem;
+}
+
+.slide-img{
+  width: 100%;
+  height: 90vh;
+  /* margin: 0 2rem; */
+}
+.content{
+  position: absolute;
+  left: 30%;
+  top: 60%;
+  align-items: center;
+  text-align: center;
+
+}
+
+h2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-shadow: 2px 0px 15px rgb(132, 13, 13);
+}
+
+.btn{
+  background-color: transparent;
+  border: 1px solid white ;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin-right: 17px;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+  .btn:hover{
+    color: black;
+    background-color: white;
+    transform: scale(120%);
+    transition: 1s ease-in-out;
+    /* transform: matrix3d(140%); */
+  }
+
+  .buttons{
+    color: white;
+    cursor: pointer;
+    
+  }
+
+  .right-btn{
+    position: absolute; 
+    top: 50%;
+    right: 4%;
+  }
+
+  .left-btn{
+    position: absolute; 
+    top: 50%;
+    left: 4%;
+   
+  }
